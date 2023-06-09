@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="/ThucTap_Nhom8-master/assets/css/datban.css">
+    <title>Đặt bàn</title>
+</head>
+<body>
+    <div class="boss">
+        <div id="banner">
+            <div id="banner_slide" >
+                <a href="">
+                    <img src="./assets/img/pic-about.png"   alt="Banner">
+                    <img src="/ThucTap_Nhom8-master/assets/img/Banner Freeship_1222x465px.jpg"  alt="Banner">
+                </a>
+                
+            </div>
+            <div id="toppage">
+                <div class="toppage_left">
+                    <img src="./assets/img/lang_en.png" alt="logo english">
+                    <span>English</span>
+                </div>
+                <div class="toppage_logo">
+                    <a href="index.html"><img src="./assets/img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="toppage_right">
+                    <div class="toppage_right-item">
+                        <a href="">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="label">Giỏ hàng</span>
+                            <span class="number_shopping">0</span>
+                        </a>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="label">Search</span>
+                        </div>
+                    </div>
+                    <div class="toppage_right-input">
+                        <input type="search" name="" id="" placeholder="Tìm kiếm">
+                        <i class="search fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <header id="header">
+                <ul class="menu">
+                    <li class="menu_list"><a href="">TRANG CHỦ</a></li>
+                    <li class="menu_list"><a href="">GIỚI THIỆU</a></li>
+                    <li class="menu_list"><a href="">THỰC ĐƠN</a></li>
+                    <li class="menu_list"><a href="/ThucTap_Nhom8-master/uudai.html">ƯU ĐÃI</a></li>
+                    <li class="menu_list"><a href="">BLOG ẨM THỰC</a></li>
+                    <li class="menu_list"><a href="">HỆ THỐNG CỬA HÀNG</a></li>
+                    <li class="menu_list"><a href="/ThucTap_Nhom8-master/tuyendung.html">TUYỂN DỤNG</a></li>
+                    <li class="menu_list"><a href="/ThucTap_Nhom8-master/lienhe.html">LIÊN HỆ</a></li>
+                </ul>
+                <span class="booking">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <span><a href="/ThucTap_Nhom8-master/datban.html" style="text-decoration: none;color: #ffff
+                    ;">Đặt bàn</a></span>
+                </span>
+            </header>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                } else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+        <div class="backboss">
+            <div class="back">
+                <p class="back1" style="color: #6f6f6f;"><a href="">Trang chủ</a></p>
+                <i class="back2" style="color: #6f6f6f;">></i>
+                <p class="back11" style="color: #d5a34c;"><a href="">Đặt bàn</a></p>
+            </div>
+        </div>
+        
+        <div class="page" >
+            <h1 style="font-family: 'Charm', cursive;" ><span>Đặt bàn</span></h1>
+            <div>
+            <div style="text-align: center;">
+                Hãy cũng khám phá thực đơn tại nhà hàng Nét Huế để được thưởng thức trọn hương vị ẩm thực Huế<br>
+                Liên hệ với chúng tôi<br>
+                <span style="color: #d5a34c;">
+                <strong style="font-size: 22px">19009077</strong></span>
+            </div>
+            </div>
+            <div class="content">
+                <div class="img-datban" style="width: 520px">
+                    <img src="/ThucTap_Nhom8-master/assets/img/img-datban.png"  alt="" >
+                </div>
+                <div class="form-datban" style="height: 378px;width: 590px;">
+                    <div class="form-datban1">
+                    <div class="cell1">
+                        <div>
+                        <label for="">Họ tên</label>
+                        <input type="text" class="box" placeholder="Họ tên">
+                    </div>
+                    <div class="thongtin">
+                        <label for="">Email</label>
+                        <input type="text" class="box" placeholder="Email">
+                    </div>
+                    <div class="thongtin">
+                        <label for="">Điện thoại</label>
+                        <input type="text" class="box" placeholder="Điện thoại">
+                    </div>
+                    </div>
+                    <div class="cell2">
+                        <div style="display: flex;">
+                            <div>
+                            <label for="">Thời gian</label>
+                            <input type="date" autocomplete="off" class="box" placeholder="--Ngày--">
+                            </div>
+                            <div style="margin-left: 15px;">
+                                <label for="">.</label>
+                                <input type="time" class="box" placeholder="--Thời gian--">
+                            </div>
+                        </div>
+                        <div class="thongtin">
+                            <label for="">Số người</label>
+                            <input type="number" class="box" placeholder="Số người">
+                        </div>
+                        <div class="thongtin">
+                            <label for="">Nhà hàng</label>
+                            <select name="" id="" class="box">
+                                <option value="">Nhà hàng</option>
+                                <option value="">Net Hue Vincom Mega Mall Smart City</option>
+                                <option value="">Net Hue savico Megamall</option>
+                                <option value="">Net Hue Aeon Mall Hai Phong</option>
+                                <option value="">Net Hue Ocean Park Gia Lam</option>
+                                <option value="">Net Hue - BigC Thang Long</option>
+                                <option value="">Net Hue Vincom Nguyen Chi Thanh</option>
+                                <option value="">Net Hue Hang Bong</option>
+                                <option value="">Net Hue Mai Hac De</option>
+                                <option value="">Net Hue Lang Ha</option>
+                                <option value="">Net Hue Royal City</option>
+                                <option value="">Net Hue Tran Duy Hung</option>
+                                <option value="">Net Hue Thai Ha</option>
+                                <option value="">Net Hue Lac Trung</option>
+                                <option value="">Net Hue Skylake Pham Hung</option>
+                                <option value="">Net Hue Nguyen Van Huyen</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="txtnote">
+                    <textarea name="" id="note" cols="30" rows="15" placeholder="Ghi chú"></textarea>
+                </div>
+                <div class="bt-datban">
+                    <a href="">Đặt bàn ngay</a>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

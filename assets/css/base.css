@@ -1,0 +1,37 @@
+:root {
+    --white--color: #fff;
+    --black--color: #333;
+}
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: UTM-A, Tahoma, Geneva, sans-serif; */
+    box-sizing: border-box;
+}
+@keyframes SliderShow {
+    0% {
+        margin-left: 0;
+    }
+    90% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+@keyframes Scroll {
+    0% {
+        top: 92px;
+    }
+    /* 99% {
+        top: 5px;
+    } */
+    100% {
+        top: 0;
+    }
+}

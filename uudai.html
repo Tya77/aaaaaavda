@@ -4,11 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="uudai.css">
+    <title>Ưu đãi</title>
+    <link rel="stylesheet" href="/ThucTap_Nhom8-master/assets/css/uudai.css">
+    <link rel="stylesheet" href="/ThucTap_Nhom8-master/assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ThucTap_Nhom8-master/assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/ThucTap_Nhom8-master/assets/css/base2.css">
 </head>
 <body>
     <div class="boss">
+        <div id="banner">
+            <div id="banner_slide">
+                <a href="">
+                    <img src="./assets/img/pic-about.png"  alt="Banner">
+                    
+                </a>
+                
+            </div>
+            <div id="toppage">
+                <div class="toppage_left">
+                    <img src="./assets/img/lang_en.png" alt="logo english">
+                    <span>English</span>
+                </div>
+                <div class="toppage_logo">
+                    <a href="index.html"><img src="./assets/img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="toppage_right">
+                    <div class="toppage_right-item">
+                        <a href="">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="label">Giỏ hàng</span>
+                            <span class="number_shopping">0</span>
+                        </a>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="label">Search</span>
+                        </div>
+                    </div>
+                    <div class="toppage_right-input">
+                        <input type="search" name="" id="" placeholder="Tìm kiếm">
+                        <i class="search fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <header id="header">
+                <ul class="menu">
+                    <li class="menu_list"><a href="">TRANG CHỦ</a></li>
+                    <li class="menu_list"><a href="">GIỚI THIỆU</a></li>
+                    <li class="menu_list"><a href="">THỰC ĐƠN</a></li>
+                    <li class="menu_list"><a href="/ThucTap_Nhom8-master/uudai.html">ƯU ĐÃI</a></li>
+                    <li class="menu_list"><a href="">BLOG ẨM THỰC</a></li>
+                    <li class="menu_list"><a href="">HỆ THỐNG CỬA HÀNG</a></li>
+                    <li class="menu_list"><a href="/ThucTap_Nhom8-master/tuyendung.html">TUYỂN DỤNG</a></li>
+                    <li class="menu_list"><a href="/ThucTap_Nhom8-master/lienhe.html">LIÊN HỆ</a></li>
+                </ul>
+                <span class="booking">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <span><a href="/ThucTap_Nhom8-master/datban.html" style="text-decoration: none;color: #ffff
+                        ;">Đặt bàn</a></span>
+                </span>
+            </header>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                } else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
         <div class="backboss">
             <div class="back">
                 <p class="back1" style="color: #6f6f6f;"><a href="">Trang chủ</a></p>
@@ -17,14 +88,14 @@
             </div>
         </div>
         <div class="page" style="height: 932px;width:1519px ;">
-            <h1 style="font-family: 'Charm', cursive;" ><span>Ưu đãi</span></h1>
+            <h1 style="font-family: 'Charm', cursive;" ><span style="font-size: 30px;">Ưu đãi</span></h1>
             <div class="anh">
                 <div class="anh1">
-                   <div> <a href="https://nethue.com.vn/blog-am-thuc/dung-lau-tang-kem-mon-moi.html"><img src="https://nethue.com.vn/temp/-uploaded-2021-01_website_cr_320x215.jpg" style="height: 255px;width: 400px;" alt=""></a></div>
+                   <div > <a href="https://nethue.com.vn/blog-am-thuc/dung-lau-tang-kem-mon-moi.html"><img src="https://nethue.com.vn/temp/-uploaded-2021-01_website_cr_320x215.jpg" style="height: 255px;width: 400px;" alt=""></a></div>
                    <div class="text"> <b><a href="https://nethue.com.vn/blog-am-thuc/dung-lau-tang-kem-mon-moi.html">Dùng Lẩu Tặng Kèm Món Mới ( áp dụng từ ngày 14/12/2021)</b></a></div>
                 </div>
                 <div class="anh2">
-                    <div> <a href="https://nethue.com.vn/uu-dai/thong-bao-tam-nghi-cs-198-hang-bong.html"><img src="https://nethue.com.vn/temp/-uploaded-banner_M%C3%B3n%20C%C4%90_cr_320x215.jpg" style="height: 255px;width: 400px;" alt=""></a></div>
+                    <div > <a href="https://nethue.com.vn/uu-dai/thong-bao-tam-nghi-cs-198-hang-bong.html"><img src="https://nethue.com.vn/temp/-uploaded-banner_M%C3%B3n%20C%C4%90_cr_320x215.jpg" style="height: 255px;width: 400px;" alt=""></a></div>
                     <div class="text"> <b><a href="https://nethue.com.vn/uu-dai/thong-bao-tam-nghi-cs-198-hang-bong.html">ĐẶT TIỆC CUNG ĐÌNH</b></a></div>
                  </div>
             
